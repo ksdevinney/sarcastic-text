@@ -1,10 +1,16 @@
 const startingText = [];
+// get input
 const initialText = document.getElementById("input-text");
 const alteredText = document.getElementById("output-text");
 const submit = document.getElementById("submit-button");
 
 // console.log(initialText);
-const textToTransform = initialText.nodeValue;
+const textToTransform = initialText.value;
+
+function getText() {
+    let inputValue = initialText.value;
+    console.log(inputValue);
+}
 
 // function transformText(text) {
 //     let length = text.length;
@@ -28,6 +34,7 @@ const textToTransform = initialText.nodeValue;
 submit.onclick = function handleClick() {
     console.log("click");
     event.preventDefault();
+    getText();
     console.log(initialText);
     console.log(textToTransform);
     // transformText(initialText);
