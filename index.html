@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/css/uikit.min.css" />
+        <link rel="stylesheet" href="style.css" />
     <title>iNsTaNt sArCaSm</title>
 </head>
 <body class="uk-align-left">
@@ -14,12 +15,12 @@
     </header>
     <main>
         <form class="uk-container">
-            <label for="input" class="uk-label">Text here</label><br>
+            <label for="input" class="uk-label-default">Text here</label><br>
             <input type="text" id="input-text" class="uk-textarea" required>
             <input type="submit" value="Submit" id="submit-button" class="uk-button-default">
         </form>
-        <div class="uk-container">
-            <p id="output-text"></p>
+        <div class="uk-container uk-animation-toggle" tabindex="0" id="for-new-text">
+            <p id="output-text" class="uk-placeholder  uk-animation-shake"></p>
         </div>
     </main>
     <script src="script.js"></script>
