@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>sArCaSm GeNeRaToR</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/css/uikit.min.css" />
+    <title>iNsTaNt sArCaSm</title>
 </head>
-<body>
+<body class="uk-align-left">
     <header>
-        <h1>WhAt DiD yOu SaY????</h1>
-        <h3>It's hard to read tone online</h3>
+        <h1 class="uk-heading-large">wHaT DiD YoU SaY?</h1>
+        <h3 class="uk-heading-small uk-heading-bullet">It's hard to read tone online</h3>
     </header>
     <main>
-        <form>
-            <label for="input">Text here</label><br>
-            <input type="text" id="input-text" required>
-            <input type="submit" value="Submit" id="submit-button">
+        <form class="uk-container">
+            <label for="input" class="uk-label">Text here</label><br>
+            <input type="text" id="input-text" class="uk-textarea" required>
+            <input type="submit" value="Submit" id="submit-button" class="uk-button-default">
         </form>
-        <p id="output-text"></p>
+        <div class="uk-container">
+            <p id="output-text"></p>
+        </div>
     </main>
     <script src="script.js"></script>
 </body>

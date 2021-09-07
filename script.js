@@ -18,9 +18,11 @@ function transformText() {
     for (let i = 0; i < lowerCase.length; i++) {
         const current = lowerCase[i];
 
+        // even spaces should be lowercase
         if(i % 2 === 0) {
             newText += current;
         } else {
+            // everything else is uppercase
             newText += current.toUpperCase();
         }
     }
