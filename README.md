@@ -14,6 +14,6 @@ Yes, there are other services on the internet that can do this for you. However,
 
 ## hOw???
 
-My application takes an input string, converts it to lower case, and uses the index of each letter in the string to capitalize (or not). The code I have used does not take into account whether there is a space in the string. Another feature I would like to implement is the ability to copy the new text with a button click, instead of highlighting the whole thing.
+My application takes an input string, converts it to lower case, and uses the index of each letter in the string to capitalize (or not). Numbers, spaces, and other special characters will be unchanged. Another feature I would like to implement is the ability to copy the new text with a button click, instead of highlighting the whole thing.
 
 This application is deployed on [GitHub Pages](https://ksdevinney.github.io/sarcastic-text/). gO On, TrY It!
