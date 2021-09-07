@@ -1,5 +1,7 @@
 # Sarcastic Text Generator
 
+![generator preview](/assets/images/preview.png)
+
 ## wHaT???
 
 This is a simple application to transform text into aLtErNaTiNg case. 
