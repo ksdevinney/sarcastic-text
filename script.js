@@ -1,7 +1,7 @@
 const startingText = [];
 // get input
 const initialText = document.getElementById("input-text");
-const alteredText = document.getElementById("output-text");
+let alteredText = document.getElementById("output-text");
 const submit = document.getElementById("submit-button");
 
 // console.log(initialText);
@@ -10,9 +10,15 @@ const textToTransform = initialText.value;
 function transformText() {
     // let length = text.length;
 
+    let alteredText = document.getElementById("output-text");
+
     let inputValue = initialText.value;
 
-    console.log(inputValue.toUpperCase());
+    let newText = inputValue.toUpperCase();
+
+    console.log(newText);
+
+    alteredText.innerHTML = newText;
 
     // let clearCaps = text.string.toLowerCase();
 
