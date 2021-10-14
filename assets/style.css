@@ -3,7 +3,11 @@
 }
 
 html {
-    background-color: #ffffcc;
+    background: linear-gradient(to bottom right, #FFFFCC, #64bfe7) no-repeat center center fixed;
+}
+
+h1, h2, h3, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
