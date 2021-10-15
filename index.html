@@ -8,20 +8,34 @@
         <link rel="stylesheet" href="assets/style.css" />
     <title>iNsTaNt sArCaSm</title>
 </head>
-<body class="uk-align-center">
+<body>
     <header class="headers">
-        <h1 class="uk-heading-large">wHaT dId YoU sAy?</h1>
-        <h3 class="uk-heading-small uk-heading-bullet">It's hard to read tone online</h3>
-    </header>
-    <main>
+        <!-- video background! -->
+        <video class="video-container" muted autoplay loop>
+            <source src="assets/images/video.mp4" type="video/mp4" />
+        </video>
+        <!-- <h1 class="uk-heading-large">wHaT dId YoU sAy?</h1>
+        <h3 class="uk-heading-small uk-heading-bullet">It's hard to read tone online</h3> -->
+        <h1>wHaT dId YoU sAy?</h1>
+        <h3>It's hard to read tone online</h3>
         <form class="uk-container">
-            <label for="input" class="uk-label-default">Text here</label><br>
+            <label for="input" class="uk-label-default" style="color: white">Text here</label><br>
             <input type="text" id="input-text" class="uk-textarea" required>
             <input type="submit" value="Submit" id="submit-button" class="uk-button-secondary uk-button-large">
         </form>
         <div class="uk-container uk-animation-toggle" tabindex="0" id="for-new-text">
             <p id="output-text" class="uk-placeholder  uk-animation-shake"></p>
         </div>
+    </header>
+    <main>
+        <!-- <form class="uk-container">
+            <label for="input" class="uk-label-default">Text here</label><br>
+            <input type="text" id="input-text" class="uk-textarea" required>
+            <input type="submit" value="Submit" id="submit-button" class="uk-button-secondary uk-button-large">
+        </form>
+        <div class="uk-container uk-animation-toggle" tabindex="0" id="for-new-text">
+            <p id="output-text" class="uk-placeholder  uk-animation-shake"></p>
+        </div> -->
     </main>
     <footer>
         <h6 id="footer">© 2021 Katie Devinney | <a href="https://github.com/ksdevinney/sarcastic-text">GitHub</a></h6>
